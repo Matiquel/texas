@@ -1,0 +1,215 @@
+body
+{
+  background-image: url(tekstura.jpg);
+  background-repeat:repeat;
+  font-family: 'Open Sans','Roboto' sans-serif;
+}
+.container
+{
+  background-color: #27ae60;
+  border: 10px solid #004D40;
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 250px;
+  border-radius: 500px;
+  position: relative;
+  z-index: 1;
+}
+.gracz
+{
+  width: 300px;
+  float: right;
+  margin-top: 12%;
+  margin-right: -150px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.komputer
+{
+  width: 300px;
+  float: left;
+  margin-top: 12%;
+  margin-left: -150px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.stawka
+{
+  width: 300px;
+  height: 105px;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 360px;
+  z-index: 1;
+
+}
+.pula {
+  width: 300px;
+  margin-top: -100px;
+  z-index: 2;
+  position: absolute;
+  font-size: 30px;
+  /*border: 1px solid #fff;*/
+  /*background-color: #0099cc;*/
+}
+/*.skart
+{
+  width: 60px;
+  height: 90px;
+  background: # 27ae60;
+  border: 2px solid #fff;
+  position: absolute;
+  z-index: 2;
+  margin-left: 315px;
+  margin-top: -10px;
+  transform:rotate(90deg);
+ -webkit-transform:rotate(90deg);
+ -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+}*/
+.avatar
+{
+  margin:0 auto;
+  margin-top: -75px;
+  width: 150px;
+  height: 150px;
+}
+.list-group-item
+{
+  border: 1px solid #95a5a6;
+}
+.karty
+{
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  background: #27ae60;
+  border: 2px solid #fff;
+  z-index: 3;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 20%;
+}
+.karty2
+{
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  background: #27ae60;
+  border: 2px solid #fff;
+  z-index: 2;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 20%;
+}
+.karty3
+{
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  background: #27ae60;
+  border: 2px solid #fff;
+  z-index: 2;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 20%;
+}
+.karty4
+{
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  background: #27ae60;
+  border: 2px solid #fff;
+  z-index: 2;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 20%;
+}
+.karty5
+{
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  background: #27ae60;
+  border: 2px solid #fff;
+  z-index: 2;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 20%;
+}
+.tekst
+{
+  width: 400px;
+  height: 75px;
+  position: absolute;
+  background: #27ae60;
+  z-index: 2;
+  margin-left: 270px;
+  margin-top: -46%;
+  color: black;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.cards
+{
+  width: 60px;
+  height: 90px;
+  background: #27ae60;
+  border: 2px solid #fff;
+  float: right;
+  margin-top: 15px;
+}
+.cards2
+{
+  width: 60px;
+  height: 90px;
+  background: #27ae60;
+  border: 2px solid #fff;
+  margin-left: 220px;
+  margin-top: 25px;
+}
+.cards3
+{
+  width: 60px;
+  height: 90px;
+  background: #27ae60;
+  border: 2px solid #fff;
+  float: left;
+  margin-top: 15px;
+}
+.cards4
+{
+  width: 60px;
+  height: 90px;
+  background: #27ae60;
+  border: 2px solid #fff;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.cards:hover
+{
+  transform: scale(1.2);
+}
+.cards2:hover
+{
+  transform: scale(1.2);
+}
+.cards3:hover
+{
+  transform: scale(1.2);
+}
+.cards4:hover
+{
+  transform: scale(1.2);
+}
+.btn
+{
+  z-index: 2;
+  position: relative;
+}
